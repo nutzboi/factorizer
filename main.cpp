@@ -13,10 +13,8 @@ int main(int argc, char** argv)
     }
     else cin>> x;
     x++;
-    for(long long i = 1; i < x; i++){
-        if((x - 1) % i == 0){
+    for(long long i = 1; i < x; i++)
+        if((x - 1) % i == 0)
             printf("%I64d x %I64d\n", i, (x-1)/i);
-        }
-    }
     return 0;
 }
