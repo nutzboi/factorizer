@@ -9,7 +9,7 @@ int main(int argc, char** argv)
     long long x;
     if(argc > 1){
         string str = argv[1];
-        x = stoi(str);
+        x = stoll(str);
     }
     else cin>> x;
     x++;
